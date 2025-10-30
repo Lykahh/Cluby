@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Clubs Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>School Clubs Finder</h1>
+    <p>Discover and join clubs at your school</p>
+  </header>
+
+  <main>
+    <section id="clubsList">
+      <h2>Available Clubs</h2>
+
+      <div class="club">
+        <span>Art Club 🎨</span>
+        <button onclick="joinClub('Art Club')">Join</button>
+      </div>
+
+      <div class="club">
+        <span>Science Club 🔬</span>
+        <button onclick="joinClub('Science Club')">Join</button>
+      </div>
+
+      <div class="club">
+        <span>Drama Club 🎭</span>
+        <button onclick="joinClub('Drama Club')">Join</button>
+      </div>
+
+      <div class="club">
+        <span>Chess Club ♟️</span>
+        <button onclick="joinClub('Chess Club')">Join</button>
+      </div>
+    </section>
+
+    <section id="joinedList">
+      <h2>Your Joined Clubs</h2>
+      <ul id="joinedClubs"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
