@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #693b87;
+  background-color: #070d61;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #070d61;
 }
 
 #joinedList {
